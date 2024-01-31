@@ -5,7 +5,7 @@ a = Analysis(
     ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[('E:\\Projects\\video-sub-companion\\venv\\Lib\\site-packages\\webui\\webui-windows-msvc-x64\\webui-2.dll', '.\\webui\\webui-windows-msvc-x64'), ('E:\\Projects\\video-sub-companion\\assets', '.\\assets'), ('E:\\Projects\\video-sub-companion\\index.html', '.'), ('E:\\Projects\\video-sub-companion\\vite.svg', '.')],
+    datas=[('E:\\Projects\\video-sub-companion\\venv\\Lib\\site-packages\\webui\\webui-windows-msvc-x64\\webui-2.dll', '.\\webui\\webui-windows-msvc-x64'), ('E:\\Projects\\video-sub-companion\\assets', '.\\assets'), ('E:\\Projects\\video-sub-companion\\index.html', '.'), ('E:\\Projects\\video-sub-companion\\logo.svg', '.'), ('E:\\Projects\\video-sub-companion\\ffmpeg\\bin\\ffmpeg.exe', '.'), ('E:\\Projects\\video-sub-companion\\ffmpeg\\bin\\ffprobe.exe', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

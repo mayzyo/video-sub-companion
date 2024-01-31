@@ -1,8 +1,13 @@
+import os
 from webui import webui
 from pydub import AudioSegment
-import os
 import tkinter as tk
 from tkinter import filedialog
+
+if os.path.isfile('./ffmpeg.exe') and os.path.isfile('./ffprobe.exe'):
+	print('bundled ffmpeg found...')
+else:
+	print('no ffmpeg found, please download it and add it to PATH...')
 
 def convert_to_audio(e : webui.event):
 	print('convert_to_audio')

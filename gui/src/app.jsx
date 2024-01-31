@@ -1,7 +1,7 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import Stack from '@mui/material/Stack'
-import viteLogo from '/vite.svg'
+import viteLogo from '/logo.svg'
 import { useSignal, effect } from '@preact/signals'
 import { FilePicker } from './components/file-picker'
 import { FunctionPanel } from './components/function-panel'
